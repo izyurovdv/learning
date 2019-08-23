@@ -4,28 +4,28 @@
 # Задание - 1
 # Создайте функцию, принимающую на вход Имя, возраст и город проживания человека
 # Функция должна возвращать строку вида "Василий, 21 год(а), проживает в городе Москва"
-#
-# def user_info(name,age,city):
-#     return (f'{name},{age} лет,проживает в городе {city}')
-#
-#
-# # Задание - 2
-# # Создайте функцию, принимающую на вход 3 числа, и возвращающую наибольшее из них
-#
-# def my_max(a,b,c):
-#     if a > b and a > c:
-#         max_number = a
-#     elif b > a and b > c:
-#         max_number = b
-#     else:
-#         max_number = c
-#     return max_number
-#
-# def my_max(a,b,c):
-#     max_number = a
-#     for i in (a,b,c):
-#         if i > max_number: max_number = i
-#     return max_number
+
+def user_info(name,age,city):
+    return (f'{name},{age} лет,проживает в городе {city}')
+
+
+# Задание - 2
+# Создайте функцию, принимающую на вход 3 числа, и возвращающую наибольшее из них
+
+def my_max(a,b,c):
+    if a > b and a > c:
+        max_number = a
+    elif b > a and b > c:
+        max_number = b
+    else:
+        max_number = c
+    return max_number
+
+def my_max(a,b,c):
+    max_number = a
+    for i in (a,b,c):
+        if i > max_number: max_number = i
+    return max_number
 
 
 # Задание - 3
@@ -38,5 +38,4 @@ def my_func(*args):
 
 
 
-print(my_func('dsdsdsss','dsd','2232412313123','dsfsdfggdjsdsag'))
 
